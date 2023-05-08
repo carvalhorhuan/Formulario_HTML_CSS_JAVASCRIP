@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: Center;
+    align-items: center;
+    background: #FFD700
+}
+.container{
+    width: 90%;
+    height: 80vt;
+    Display: flex;
+    box-shadow: 5px 5px 10px rgba(0,0,0.212);
+}
+.form-image{ 
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F0FFFF;
+    }
+.form-image{
+    width: 50rem;
+}
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    Padding: 2rem;
+}
+.form-header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.login-button{
+    display: flex;
+    align-items: center;
+}
+.login-button button {
+    border: none;
+    background-color: azure;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-button button:hover {
+    background-color: aqua;
+
+}
+.login-button button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+
+}
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: aqua;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin-bottom: 0.5rem;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box input:hover{
+    background-color: #eeeeee75;
+}
+
+.continue-button button{
+    width: 100%;
+    margin-top: 3rem;
+    border: none;
+    background-color: aqua;
+    Padding: 0.62rem;
+    Border-radius: 5px;
+    cursor: pointer;
+}
+.continue-button button:hover {
+    background-color: rgba(0,255,150) ;
+}
+.continue-button button a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+@media screen and (max-width: 1330px) {
+    .form-image{ display: none;}
+    .container{width: 50%;}
+    .form{width: 100%;}
+    }
+@media screen and (max-width: 1064px){
+    .container{width: 90%;
+    height: auto;
+    flex-wrap:nowrap;
+    }
+  
+}
