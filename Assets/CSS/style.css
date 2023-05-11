@@ -1,3 +1,13 @@
+
+/* Primeira Alterar fonte depois Configuração padrão */
+/* Depois configuração do Body:
+        - Cor do Backgroud,
+        - Cor do Container, 
+        - Margens e configurações,
+        - Centralizar o modelo,
+         onde será o local ancora*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 * {
@@ -13,20 +23,23 @@ body {
     display: flex;
     justify-content: Center;
     align-items: center;
-    background: #FFD700
+    background: #F0FFFF
 }
 .container{
-    width: 90%;
+    width: 70%;
     height: 80vt;
     Display: flex;
     box-shadow: 5px 5px 10px rgba(0,0,0.212);
+    border-radius: 3rem;
+    background: #FFD700;
 }
 .form-image{ 
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #F0FFFF;
+    border-radius: 3rem;
     }
 .form-image{
     width: 50rem;
@@ -37,10 +50,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    Padding: 2rem;
+    Padding: 3rem;
 }
 .form-header{
-    margin-bottom: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: space-between;
 }
@@ -68,7 +82,7 @@ body {
 .form-header h1::after{
     content: '';
     display: block;
-    width: 5rem;
+    width: 3rem;
     height: 0.3rem;
     background-color: aqua;
     margin: 0 auto;
@@ -76,22 +90,28 @@ body {
     border-radius: 10px;
 }
 
-.input-group{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem 0;
-    margin-bottom: 0.5rem;
-}
-
-.input-box{
+.input-box {
+    width: 80%;
     display: flex;
     flex-direction: column;
-}
-
-.input-box input:hover{
-    background-color: #eeeeee75;
-}
+    margin-bottom: 5px;
+  }
+  
+  .input-box label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #000000;
+  }
+  
+  .input-box input {
+    height: 30px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 0 12px;
+    font-size: 16px;
+    color: #424242;
+  }
 
 .continue-button button{
     width: 100%;
@@ -101,6 +121,7 @@ body {
     Padding: 0.62rem;
     Border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 3rem;
 }
 .continue-button button:hover {
     background-color: rgba(0,255,150) ;
