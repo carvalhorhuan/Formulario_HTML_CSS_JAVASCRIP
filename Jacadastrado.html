@@ -1,5 +1,3 @@
-<!--Fazer pagina de Login Responsiva, semples para o usuário.-->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,22 +8,23 @@
     <title>Pagina Login</title>
 </head>
 <body>
+    </div>
     <div class="Container">
         <div class="input-box">
-                <label for="Login"><b>Usuario: </b></label>
-                <input type="email" id="email" name="email" size="60" placeholder="Email de Cadastrado" required>
-            </div>
-            <div class="input-box">
-                <label for="password"><b>senha:</b></label>
-                <input id="password-confirm" type="password" size="60" name="password-confirm" placeholder="Digite sua senha" required>
-            </div>
-            <div>
-                <a href="a" class="forgoten"> Esqueci minha senha!</a>
-            </div>
-            <div class="continue-button">
-                <button type="submit">Entrar</button>
-            </div>
-            <a href="./Index.html">Voltar</a>
+            <label for="Login"><b>Usuario: </b></label>
+            <input type="email" id="email" name="email" size="60" placeholder="Email de Cadastrado" required>
         </div>
+        <div class="input-box">
+            <label for="password"><b>senha:</b></label>
+            <input id="password-confirm" type="password" size="60" name="password-confirm" placeholder="Digite sua senha" required>
+        </div>
+        <div>
+            <a href="./EsqueciSenha.html" class="forgoten">Esqueci minha senha!</a>
+        </div>
+        <div class="continue-button">
+            <button id="entrar-btn" type="submit">Entrar</button>
+        </div>
+        <a href="./Index.html">Voltar</a>
+    <script src="./Assets/JS/Index.js"></script>
 </body>
 </html>

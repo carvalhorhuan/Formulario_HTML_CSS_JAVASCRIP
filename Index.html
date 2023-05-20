@@ -39,7 +39,7 @@
       <img src="Assets/Imagem/undraw_join_re_w1lh.svg" alt="">
     </div>
     <div class="form">
-      <form action="#">
+      <form id="cadastro-form" action="#">
         <div class="form-header">
           <h1>Cadastre-se</h1>
             <div class="login-button">
@@ -65,13 +65,13 @@
           <label for="name">
             <b>Nome completo:</b>
           </label>
-            <input type="text" id="name" name="name" size="60" placeholder="Seu nome completo">
+            <input type="text" id="name" name="name" size="60" placeholder="Seu nome completo" required>
         </div>
         <div class="input-box">
           <label for="email">
             <b>Email:</b>
           </label>
-            <input type="email" id="email" name="email" size="60" placeholder="Seu email usual">
+            <input type="email" id="email" name="email" size="60" placeholder="Seu email usual" required>
         </div>
         <div class="input-box">
           <label for="phone">
@@ -120,10 +120,11 @@
           <input type="checkbox" id="Aceitar termo" name="Aceitar termo">
           <label for="Aceitar termo"><a href="colocar link com algum termo">Aceite de termo</a></label>
         </div>
-        <div class="continue-button">
+        <div class="cadastrar">
             <button type="submit">Cadastrar</button>
         </div>
         </form>
+        <script src="./Assets/JS/Cadastrso.js"></script>        
     </div>
 </DIV>
 </body>
