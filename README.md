@@ -2,7 +2,8 @@
 
  
 
-<img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+<img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> *HTML*
+<P>
 
 Formulário com o maior números de funções para um cadastro rápido possível. 
 
@@ -14,18 +15,22 @@ Checkbox de uma unica escolha para a faixa etária.
 
 Com destaque na pagina de cadastro, para senha dentro da fieldset. 
 Já na pagina login, o destaque está para garantir o container Unico e unifome ao centro com Login e senha
+</P>
 
+<img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> *CSS*
 
-<img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-
+<P>
 Bordas do Container arredondadas. 
 Fundo Amarelo 
 Com fonte estilizadas, 
 e tendo como foco deixar as paginas responsivas. 
-
-<img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+</P>
+<img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">*JAVA*
+<P>
 
 Enviar mensagem de cadastro feito com sucesso.
 Enviar mensagem de Login feito com sucesso
-
+</P>
+<P>
 Projeto atualmente somente Front sem uso de Backend para melhor fixação das sintaxes.
+</P>
