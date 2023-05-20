@@ -2,7 +2,7 @@
 
  
 
-<img align="center" alt="HTML height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"><B>HTML</B>
+<img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"><B>HTML</B>
 <P>
 <UL>
 <LI>Formulário com o maior números de funções para um cadastro rápido possível;</LI>
