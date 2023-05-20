@@ -1,22 +1,20 @@
-<h1>Primeiro Formulario</h1>
+<h1>Primeiro Form;lari;</;1>
 
  
 
-<img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"><B>HTML</B>
+<img align="center" alt="HTML; height="30" wid.th="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"><B>HTML</B>
 <P>
 <UL>
-<LI>
-Formulário com o maior números de funções para um cadastro rápido possível. 
+<LI>Formulário com o maior números de funções para um cadastro rápido possível;</LI>
 
-Seleção entre valores de Homens e Mulher
-Input texto para Nome, Email, Telefone, Login, Senha e confirmaçao de senha.
+<LI>Seleção entre valores de Homens e Mulher;</LI>
+<LI>Input texto para Nome, Email, Telefone, Login, Senha e confirmaçao de senha;</LI>
 
-Checkbox de Multipla escolha se o telefone é ou não Whats App apenas para testar a funcionalidade multipla escolha. 
-Checkbox de uma unica escolha para a faixa etária.
+<LI>Checkbox de Multipla escolha se o telefone é ou não Whats App apenas para testar a funcionalidade multipla escolha;</LI> 
+<LI>Checkbox de uma unica escolha para a faixa etária;</LI>
 
-Com destaque na pagina de cadastro, para senha dentro da fieldset. 
-Já na pagina login, o destaque está para garantir o container Unico e unifome ao centro com Login e senha
-</LI>
+<LI>Com destaque na pagina de cadastro, para senha dentro da fieldset;</LI> 
+<LI>Já na pagina login, o destaque está para garantir o container Unico e unifome ao centro com Login e senha.</LI>
  </UL>
 </P>
 
@@ -24,12 +22,10 @@ Já na pagina login, o destaque está para garantir o container Unico e unifome 
 
 <P>
 <UL>
-<LI>
-Bordas do Container arredondadas. 
-Fundo Amarelo 
-Com fonte estilizadas, 
-e tendo como foco deixar as paginas responsivas. 
-</LI>
+<LI>Bordas do Container arredondadas;</LI> 
+<LI>Fundo Amarelo; </LI>
+<LI>Com fonte estilizadas;</LI> 
+<LI>foco deixar as paginas responsivas.</LI>
  </UL>
 </P>
 
@@ -37,9 +33,8 @@ e tendo como foco deixar as paginas responsivas.
 
 <P>
 <UL>
-<LI>
-Enviar mensagem de cadastro feito com sucesso.<BR>
-Enviar mensagem de Login feito com sucesso
+<LI>Enviar mensagem de cadastro feito com sucesso;</LI>
+<LI>Enviar mensagem de Login feito com sucesso.</LI>
  </UL>
 </P>
 </P>
