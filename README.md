@@ -1,6 +1,6 @@
 <h1>Primeiro Formulário</h1>
 
- <img src="https://mentorama.com.br/blog/wp-content/uploads/2022/05/interna-blog-coding-05.jpg" hight="80px">
+ <img src="https://mentorama.com.br/blog/wp-content/uploads/2022/05/interna-blog-coding-05.jpg">
 
 <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"><B>HTML</B>
 <P>
