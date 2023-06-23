@@ -1,131 +1,92 @@
-<!--Projeto
-    1 - Fazer Formulário de preenchimento de dados
-    2 - Fazer Calculo dos dados para mostrar um resultado 
-    3 - Melhorar o Designe do Site com CSS e AngularJS
--->
-<!--Tarefaz do HTML Formulário-->
-
-<!-- Criar a Head padrão
-      Adicionar o Nome do Formulário
--->
-
-<!-- Body 
-    1 - Criar Div para separar por classes, e ter o Container de imagem e forma de texto
-    2 - Botão com Já sou Cadastrado com interação para outra pagina HTML
-    3 - usar formas distintas de input - 
-        *1 - Lista de seleção
-        *2 - Texto
-        *3 - multipla escolha 
-        *4 - somente uma escolha
-        *5 - Password com sua área de preenchimento com contorno Fieldset para destaque
-    4 - Botão cadastrar automato, enviando para o Email preenchido um email de Boas vindas
-    5 - Salvar dados em algum local ainda a defini
--->
-
-<!--Não contem Footer nesse Projeto-->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cadastro</title>
-  <link rel="stylesheet" href="Assets/CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="form-image">
-      <img src="Assets/Imagem/undraw_join_re_w1lh.svg" alt="">
+    <div class="container">
+        <div class="form-image">
+            <img src="./Assets/Imagem/undraw_join_re_w1lh.svg">
+        </div>
+        <div class="cadastro-form">
+            <form acton="./Jacadastrado.html">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-botton">
+                        <button><a href="./Jacadastrado.html">Já Cadastrado</a></button>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input type="text" id="firstname" name="firsname" placeholder="Digite seu priemeiro nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="lastname">Sobre Nome</label>
+                        <input type="text" id="lastname" name="lastname" placeholder="Digite seu sobre nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input type="number" id="number" name="number" placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="password">Confirme</label>
+                        <input type="password" id="password" name="confimepassword" placeholder="confirme sua senha" required>
+                    </div>
+                </div>
+                <div class="whats-app">
+                    <label for="whatsapp"><b>O telefone é WhatsApp?</b></label>  
+                    <input type="checkbox" id="whatsapp" name="whatsapp">
+                    <label for="whatsapp">Sim</label>
+                    <input type="checkbox" id="not-whatsapp" name="not-whatsapp">
+                    <label for="not-whatsapp">Não</label>
+                </div>
+                <div class="gender-input">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="others" name="gender">
+                            <label for="others">Outros</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="none" name="gender">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="termo-de-adesao">
+                    <input type="checkbox" id="Aceitar termo" name="Aceitar termo">
+                    <label for="Aceitar termo"><a href="./termo.html">Aceite de termo</a></label>
+                  </div>
+                <div class="continue-button">
+                    <button>Continuar</button>
+                </div>
+            </form>
+        </div>
     </div>
-    <div class="form">
-      <form id="cadastro-form" action="#">
-        <div class="form-header">
-          <h1>Cadastre-se</h1>
-            <div class="login-button">
-              <NAV>
-                <UL>
-                  <button>
-                    <a href="./Jacadastrado.html">Já sou cadastrado</a>
-                  </button>
-                </UL>
-              </NAV>
-            </div>
-        </div>
-        <div class="input-group">
-          <label for="gender">
-            <b>Qual seu gênero?</b>
-          </label>
-            <select id="gender" name="gender">
-              <option value="homem">Homem</option>
-              <option value="mulher">Mulher</option>
-            </select>
-        </div>
-        <div class="input-box">
-          <label for="name">
-            <b>Nome completo:</b>
-          </label>
-            <input type="text" id="name" name="name" size="60" placeholder="Seu nome completo" required>
-        </div>
-        <div class="input-box">
-          <label for="email">
-            <b>Email:</b>
-          </label>
-            <input type="email" id="email" name="email" size="60" placeholder="Seu email usual" required>
-        </div>
-        <div class="input-box">
-          <label for="phone">
-            <b>Telefone:</b>
-          </label>
-          <input type="tel" id="phone" name="phone"  size="60"placeholder="(xx) xxxxx-xxxx">
-       <P>
-        <label for="whatsapp"><b>O telefone é WhatsApp?</b></label>  
-            <input type="checkbox" id="whatsapp" name="whatsapp">
-            <label for="whatsapp">Sim</label>
-            <input type="checkbox" id="not-whatsapp" name="not-whatsapp">
-            <label for="not-whatsapp">Não</label>
-      </P>
-        </div>
-          <h3>Faixa etária:</h3>
-          <p>
-            <div>
-              <input type="radio" id="18-25" name="age-group" value="18-25">
-              <label for="18-25">18-25 anos</label>
-          </div>
-          <div>
-            <input type="radio" id="26-36" name="age-group" value="26-36">
-            <label for="26-36">26-36 anos</label>
-          </div>
-          <div>
-            <input type="radio" id="37-48" name="age-group" value="37-48">
-            <label for="37-48">37-48 anos</label>
-          </div>
-          <div>
-            <input type="radio" id="48+" name="age-group" value="48+">
-            <label for="48+">Mais de 48 anos</label>
-          </div>
-          </p>
-        
-        <fieldset>
-            <div class="input-box">
-                <label for="password"><b>Digite sua senha:</b></label>
-                <input id="password" type="password" size="60" name="password" placeholder="Digite sua senha" required>
-            </div>
-            <div class="input-box">
-                <label for="password-confirm"><b>Confirme sua senha:</b></label>
-                <input id="password-confirm" type="password" size="60" name="password-confirm" placeholder="Digite novamente sua senha" required>
-            </div>
-        </fieldset>
-        <div>
-          <input type="checkbox" id="Aceitar termo" name="Aceitar termo">
-          <label for="Aceitar termo"><a href="colocar link com algum termo">Aceite de termo</a></label>
-        </div>
-        <div class="cadastrar">
-            <button type="submit">Cadastrar Aqui</button>
-        </div>
-        </form>
-        <script src="./Assets/JS/Cadastrso.js"></script>        
-    </div>
-</DIV>
+    <script src="./Assets/JS/Cadastro.js"></script>
 </body>
 </html>
