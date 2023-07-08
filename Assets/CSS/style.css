@@ -49,7 +49,26 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.login-button{
+    display:flex;
+    align-items: center;
 
+}
+.login-button button {
+    border: none;
+    background-color: rgb(0, 255, 76);
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-button button:hover{
+    background-color: rgb(34, 105, 55);
+}
+.login-button button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+}
 .form-header h1::after{
     content: '';
     display: block;
@@ -125,7 +144,7 @@ body{
     font-size: x-large;
 }
 .continue-button button:hover{
-    background-color: rgb(0, 255, 76);
+    background-color: rgb(34, 105, 55);
 }
 .continue-button button a {
 text-decoration: none;
@@ -137,19 +156,21 @@ color: #fff
 
 @media screen and (max-width: 1330px){
     .form-image {display:none}
-    .container{width:50%}
+    .container{width:100%}
     .cadastro-form{width:100%}
     }
 
 @media screen and (max-width: 1064px){
-    .container{width:90%;
+    .container{width:100%;
                 height: auto;}
     .input-group{
         flex-direction: column;
         overflow-y: scroll;
         flex-wrap: nowrap;
         max-height: 10rem;
+        min-width: 360px;
         padding-right: 5rem;
+        margin: 2rem;}
     }
     .gender-input{
         margin-top: 2rem;
@@ -160,6 +181,3 @@ color: #fff
     .gender-input {
         margin-top: 0.5rem;
     }
-
-    
-}
